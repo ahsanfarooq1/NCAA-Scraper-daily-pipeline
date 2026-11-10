@@ -1,0 +1,194 @@
+================================================================================
+ NCAA BASKETBALL SCRAPER - NOTES / HOW IT WORKS
+ Location: D:\Kinetic Intellegence\All Scrapers\NCAA_Scraper
+ Last updated: 2026-07-06
+================================================================================
+
+--------------------------------------------------------------------------------
+1. WHAT THIS SCRAPER DOES
+--------------------------------------------------------------------------------
+It collects NCAA men's and women's basketball data for Divisions 1, 2 and 3,
+for a given season (e.g. 2025-26), and turns it into season stat lines.
+
+Data source: the NCAA data API (a JSON GraphQL endpoint)
+    https://sdataprod.ncaa.com/
+The public site www.ncaa.com talks to this same API; we call it directly.
+
+Two stages:
+  A) DISCOVER  - for every day of the season, ask the API which games (contests)
+                 were played -> a list of contest IDs.
+  B) SCRAPE    - for every contest ID, pull the full boxscore (both teams, every
+                 player, all stats).
+Then, separately:
+  C) ACCUMULATE - add up all of a team's/player's boxscores into season totals
+                  + per-game averages + derived metrics (FG%, PPG, per-40, etc.).
+
+--------------------------------------------------------------------------------
+2. THE CLOUDFLARE / CAPTCHA BYPASS  (the main upgrade)
+--------------------------------------------------------------------------------
+The API sits behind Cloudflare. Plain requests get blocked (403 / 429 / 503 /
+"just a moment...") by TLS fingerprint, request volume, or data-center IP - the
+same wall the NAIA scraper hit. We added the SAME bypass technique, adapted for a
+JSON API. It has 3 layers that escalate only as needed:
+
+  LAYER 1 - FAST PATH (default, no browser):
+      Uses curl_cffi impersonating a real Chrome's TLS handshake. Plain `requests`
+      is flagged mostly by its TLS fingerprint; a real-Chrome fingerprint sails
+      through. As fast as normal requests. This alone handled 100% of the 2025-26
+      runs (32,809 requests, zero blocks).
+
+  LAYER 2 - SELF-HEAL (auto, only if actually blocked):
+      On a real block it opens a headful Chrome (Playwright, saved profile so the
+      pass stays warm), lets Cloudflare verify (solve the "verify you are human"
+      box by hand if one ever appears), grabs the cf_clearance cookie + exact
+      User-Agent, hands them back to curl_cffi, and retries the SAME request -
+      never skipping data.
+
+  LAYER 3 - BROWSER FALLBACK:
+      If the site ties cf_clearance to the browser's TLS fingerprint (so the
+      handoff to curl_cffi fails), it just fetches the JSON by navigating the real
+      browser, which always passes.
+
+  ATTACH MODE (-Attach):
+      Connect to a real Chrome you opened yourself (debug port 9222) and solve the
+      box once by hand. Best if your IP ever gets hard-blocked (e.g. data-center /
+      VPN). A normal home internet connection usually never needs this.
+
+  Engine file: ncaa_cf.py  (class CFSession). It's wired into the scrapers as an
+  OPT-IN via flags (--cf / --headful / --attach). Without those flags the scripts
+  behave exactly as before (plain requests).
+
+  IMPORTANT (same as NAIA): residential/home IPs pass Cloudflare; cloud / data-
+  center IPs are blocked hardest. So RUN THIS ON A HOME PC. A website/front-end
+  should only READ the produced JSON - it should never scrape.
+
+--------------------------------------------------------------------------------
+3. HOW TO RUN  (the easy way - one command)
+--------------------------------------------------------------------------------
+Open PowerShell, then:
+
+  cd "D:\Kinetic Intellegence\All Scrapers\NCAA_Scraper"
+
+  # Men's D1, season 2025-26 (SeasonYear is the STARTING year):
+  powershell -ExecutionPolicy Bypass -File run_ncaa.ps1 -Sport MBB -Division 1 -SeasonYear 2025
+
+  # Change -Sport (MBB/WBB) and -Division (1/2/3) for the others.
+  # Women's D2 example:
+  powershell -ExecutionPolicy Bypass -File run_ncaa.ps1 -Sport WBB -Division 2 -SeasonYear 2025
+
+run_ncaa.ps1 does BOTH stages: discover the season's contest IDs, then scrape
+every boxscore. It is RESUME-SAFE - stop and re-run anytime; it only scrapes what
+is missing (auto-saves every 20 games).
+
+  Useful switches:
+    -SkipDiscover     reuse the existing season_*.json, go straight to scraping
+    -Headful          open a Chrome up-front (mint clearance before starting)
+    -Attach           use a real Chrome on port 9222 (solve the box once by hand)
+    -Delay 1.0        min seconds between requests (raise it if you get throttled)
+
+To run several at once, do them ONE AFTER ANOTHER (not in parallel - parallel
+multiplies the request rate to the same host and can trip Cloudflare). Example
+(all three women's divisions in sequence):
+    foreach ($d in 1,2,3) { powershell -ExecutionPolicy Bypass -File run_ncaa.ps1 -Sport WBB -Division $d -SeasonYear 2025 }
+
+--------------------------------------------------------------------------------
+4. HOW TO RUN  (manual / advanced - the two stages separately)
+--------------------------------------------------------------------------------
+  # STAGE A - discover contest IDs for a whole season (writes season_*.json):
+  D:\Apps\Python\python.exe fetch_season_contests.py MBB 1 2025 --cf
+
+  # STAGE B - scrape all boxscores (writes Final_All_Games_Data_*.json):
+  D:\Apps\Python\python.exe ncaa_game_scraper2.py season_MBB_d1_2025-2026.json Final_All_Games_Data_MBB_D1_2025_2026.json --cf
+
+  Flags on both: --cf (fast path + auto-heal), --headful, --attach, --cdp-url.
+
+--------------------------------------------------------------------------------
+5. STAGE C - ACCUMULATION (season stat lines)
+--------------------------------------------------------------------------------
+Turns the raw boxscores into per-team / per-player season totals + averages.
+
+  # Only the 2025-26 season, all divisions, both genders (6 files):
+  D:\Apps\Python\python.exe ncaa_accumulation.py 2025_2026
+
+  # A whole season for one gender only:
+  D:\Apps\Python\python.exe ncaa_accumulation.py 2025_2026 MBB
+
+  # No filter = process every Final_All_Games_Data_*.json present:
+  D:\Apps\Python\python.exe ncaa_accumulation.py
+
+Produces: Accumulated_Stats_{SPORT}_D{DIV}_{SEASON}.json
+Each file = one "team_total" record per team + one "player" record per player,
+with GP, PPG/RPG/APG/SPG/BPG, FG%/3P%/FT%, Ast:TO, per-40 & per-32, DD/TD, etc.
+
+--------------------------------------------------------------------------------
+6. KEY FILES
+--------------------------------------------------------------------------------
+  ncaa_cf.py                 The Cloudflare bypass engine (CFSession). Import-only.
+  run_ncaa.ps1               MAIN launcher (discover + scrape, one command).
+  start_chrome_debug_ncaa.ps1  Opens a debug Chrome for -Attach mode.
+  fetch_season_contests.py   Stage A - discover contest IDs for a season.
+  contest_id_fetcher.py      Helper used by Stage A (per-date API calls).
+  ncaa_game_scraper2.py      Stage B - scrape boxscores (resume-safe). USE THIS ONE.
+  ncaa_game_scraper.py       Older Stage B (no resume). Left for reference.
+  ncaa_accumulation.py       Stage C - season stat lines.
+  extract_ncaa_teams.py      Optional - export unique team lists.
+  requirements.txt           Python deps.
+  NCAA_CAPTCHA_BYPASS.md      Deeper write-up of the bypass (markdown).
+
+  DATA FILES:
+  season_{SPORT}_d{DIV}_{YEAR}-{YEAR+1}.json        contest IDs (Stage A output)
+  Final_All_Games_Data_{SPORT}_D{DIV}_{SEASON}.json raw boxscores (Stage B output)
+  Accumulated_Stats_{SPORT}_D{DIV}_{SEASON}.json     season stats  (Stage C output)
+    SPORT = MBB (men) / WBB (women); DIV = 1/2/3; SEASON = e.g. 2025_2026.
+
+--------------------------------------------------------------------------------
+7. SETUP / DEPENDENCIES (one time)
+--------------------------------------------------------------------------------
+The deps live on Python 3.13 at:  D:\Apps\Python\python.exe
+(NOT the default `python` = C:\Python314, which has none of them. The old
+NCAA_Scraper\.venv is broken - it points at a Python that no longer exists.)
+run_ncaa.ps1 auto-detects the right Python, so you don't have to think about it.
+
+To (re)install:
+  D:\Apps\Python\python.exe -m pip install -r requirements.txt
+  D:\Apps\Python\python.exe -m playwright install chromium
+Also: Google Chrome installed (only needed for -Attach mode).
+
+--------------------------------------------------------------------------------
+8. GOOD-TO-KNOW / GOTCHAS
+--------------------------------------------------------------------------------
+* "SeasonYear 2025" means the 2025-26 season. Always pass the STARTING year.
+
+* RESUME + EMPTY-SHELL REPAIR: A game scraped BEFORE the NCAA posted its boxscore
+  saves as an empty shell (no players). The scraper now treats a zero-player
+  record as "not done" and RE-FETCHES it on the next run (replacing the shell, no
+  duplicates), so those fill in automatically once the game is final. Opt out with
+  --no-refresh-empty. The run summary prints "With players / Empty / Failed".
+
+* GENUINELY-EMPTY GAMES: A small number stay empty (~0.3-0.9%) because the NCAA
+  never posted a player boxscore for them (small-program / crossover / forfeited
+  games). These are not recoverable - the data doesn't exist at the source. They
+  get retried harmlessly each run and fill in only if the NCAA ever posts them.
+
+* UTF-8: run_ncaa.ps1 forces UTF-8 output so accented player names / banners don't
+  crash the Windows console. It also runs Python unbuffered for live progress.
+
+* "cookies: (none)" in the log is NORMAL when Cloudflare isn't challenging - the
+  fast path just works and no cf_clearance is needed. The browser layers only
+  wake up on an actual block.
+
+--------------------------------------------------------------------------------
+9. WHAT WAS DONE IN THE 2025-26 RUN (for reference)
+--------------------------------------------------------------------------------
+Scraped all 6 combos for 2025-26 with the new bypass (zero failures, zero blocks):
+    Men   D1: 6,287 games   (6,287 with players,  0 empty)
+    Men   D2: 4,604 games   (4,581 with players, 23 empty)
+    Men   D3: 5,700 games   (5,676 with players, 24 empty)
+    Women D1: 6,026 games   (6,021 with players,  5 empty)
+    Women D2: 4,510 games   (4,493 with players, 17 empty)
+    Women D3: 5,682 games   (5,632 with players, 50 empty)
+    TOTAL:   32,809 games   (32,690 with players, 119 genuinely empty = 0.36%)
+
+Then accumulated all 6 into Accumulated_Stats_*_2025_2026.json
+    (3,757 teams, 55,829 team+player records total).
+================================================================================

@@ -1,0 +1,6 @@
+requests==2.31.0
+beautifulsoup4==4.12.3
+curl_cffi>=0.7
+playwright>=1.40
+# After installing playwright, also run once:  python -m playwright install chromium
+tzdata

@@ -1,0 +1,96 @@
+name: NCAA daily pipeline
+
+# Scrape -> accumulate -> validate -> publish. Stops before any ingestion.
+# Outputs are published as GitHub Release assets (see PIPELINE.md).
+on:
+  schedule:
+    - cron: "0 6 * * *"        # 06:00 UTC daily = 11:00 am Pakistan time (PKT, UTC+5, no DST) = 1 am US Eastern
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Run even outside the Nov 1 - Apr 15 season window"
+        type: boolean
+        default: false
+
+concurrency:
+  group: ncaa-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write              # needed to create/update Releases
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PYTHONUTF8: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          # Chromium is only used if the API starts challenging the runner (Cloudflare fallback).
+          python -m playwright install --with-deps chromium
+
+      - name: Restore state (previous raw data)
+        run: |
+          mkdir -p state prev
+          gh release download ncaa-state --dir state --pattern "*.gz" --clobber || echo "No state yet - first run"
+          gh release download ncaa-latest --dir prev --pattern "manifest.json" --clobber || echo "No previous manifest"
+          ls -la state prev || true
+
+      - name: Run pipeline (scrape + accumulate + team lists)
+        run: |
+          FORCE=""
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then FORCE="--force"; fi
+          xvfb-run -a python pipeline/run_daily.py --out out --state-dir state $FORCE
+
+      - name: Save state (so tomorrow only fetches new games)
+        if: always() && hashFiles('state/*.gz') != ''
+        run: |
+          gh release view ncaa-state >/dev/null 2>&1 || \
+            gh release create ncaa-state --title "NCAA state (internal, do not ingest)" \
+              --notes "Compressed raw data used to resume the daily scrape." --latest=false
+          gh release upload ncaa-state state/*.gz --clobber
+
+      - name: Validate
+        if: hashFiles('out/manifest.json') != ''
+        run: python pipeline/validate.py --out out --prev prev/manifest.json
+
+      - name: Publish latest files
+        if: hashFiles('out/manifest.json') != ''
+        run: |
+          gh release view ncaa-latest >/dev/null 2>&1 || \
+            gh release create ncaa-latest --title "NCAA latest (validated)" \
+              --notes "Latest validated files. See manifest.json." --latest=false
+          gh release upload ncaa-latest out/*.json --clobber
+          gh release edit ncaa-latest \
+            --notes "Updated $(date -u +%Y-%m-%dT%H:%M:%SZ). Read manifest.json first: it lists every file with size, sha256 and record counts."
+
+      - name: Keep a copy of the run log files as an artifact
+        if: always() && hashFiles('out/manifest.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: ncaa-out-${{ github.run_id }}
+          path: out/manifest.json
+          retention-days: 14
+
+      - name: Alert on failure (optional webhook)
+        if: failure()
+        env:
+          WEBHOOK: ${{ secrets.ALERT_WEBHOOK_URL }}
+        run: |
+          if [ -n "$WEBHOOK" ]; then
+            curl -sS -X POST -H "Content-Type: application/json" \
+              -d "{\"text\":\"NCAA pipeline FAILED: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" "$WEBHOOK" || true
+          fi

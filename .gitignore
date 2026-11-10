@@ -1,0 +1,22 @@
+# Data never goes into git. It lives in GitHub Releases (see PIPELINE.md).
+2024_2025_2026_data/
+2026_27_data/
+20[2-9][0-9]_[0-9][0-9]_data/
+individual_games/
+Share_2026-27/
+out/
+state/
+prev/
+*.bak.json
+*.tmp
+run_*.log
+
+# Local-only
+.venv/
+ncaa_cf_profile/
+__pycache__/
+*.pyc
+*.env
+.env
+state_seed/
+*.zip

@@ -1,0 +1,81 @@
+==============================================================================
+ NCAA 2025-26 - BEFORE vs NOW COMPARISON (all divisions, men & women)
+ before = February baseline (from NCAA_*_Data.zip);  now = current files
+==============================================================================
+
+TABLE 1 - ACCUMULATED FILES (Accumulated_Stats_*_2025_2026.json)
+------------------------------------------------------------------------------
+File      Teams before  Teams now  Added  0-stat before  0-stat now
+------------------------------------------------------------------------------
+MBB D1             727        727      0             35          35
+MBB D2             548        548      0             49          49
+MBB D3             658        663      5             16          17
+WBB D1             662        662      0              1           1
+WBB D2             541        544      3              2           2
+WBB D3             610        613      3              3           2
+------------------------------------------------------------------------------
+TOTAL             3746       3757     11            106         106
+  (0-stat = team whose season totals are all zero, i.e. every one of its
+   games was still an empty shell at that time.)
+
+TABLE 2 - ACCUMULATED FILES: PLAYER RECORDS
+------------------------------------------------------------------------------
+File      Players before  Players now   Added  0-stat now
+------------------------------------------------------------------------------
+MBB D1              9027         9395     368         825
+MBB D2              6596         6940     344         450
+MBB D3              9171         9953     782         638
+WBB D1              8430         8655     225         565
+WBB D2              7216         7679     463         493
+WBB D3              9112         9450     338         372
+------------------------------------------------------------------------------
+TOTAL              49552        52072    2520        3343
+
+TABLE 3 - FINAL GAMES FILES (Final_All_Games_Data_*_2025_2026.json)
+  0-stat game = a game with no player boxscore on either side.
+  (Women's February baseline was not archived, so 'before' = n/a there.)
+------------------------------------------------------------------------------
+File      Games bef Games now  +Games  Teams now  0-stat bef  0-stat now
+------------------------------------------------------------------------------
+MBB D1         5892      6287     395        727         886           0
+MBB D2         4351      4604     253        548         534          23
+MBB D3         5402      5700     298        663         321          24
+WBB D1          n/a      6026     n/a        662         n/a           5
+WBB D2          n/a      4510     n/a        544         n/a          17
+WBB D3          n/a      5682     n/a        613         n/a          50
+------------------------------------------------------------------------------
+MBB tot       15645                                     1741               (before totals: MBB only)
+ALL now                 32809                                        119
+
+==============================================================================
+
+READING THE NUMBERS
+-------------------
+There are TWO different "0-stat" ideas, and they are not the same thing:
+
+1) 0-STAT GAME (Table 3): a game with NO player boxscore on either side.
+   These were the "scraped too early" empty shells. The re-scrape fixed almost
+   all of them: MBB D1 886 -> 0, D2 534 -> 23, D3 321 -> 24. The women's runs
+   ended at D1 5, D2 17, D3 50. The ~119 still-empty games are genuinely empty
+   at the NCAA (no boxscore was ever posted) and cannot be recovered.
+
+2) 0-STAT TEAM (Table 1): a team whose SEASON totals are all zero. This count
+   barely moved (about 106 before and after) because these are NOT broken data
+   - they are NON-DIVISION opponents (e.g. Huston-Tillotson, Evangel, Biblical
+   Stud. (TX), New College (FL)) that a D1/D2/D3 team played. The NCAA only
+   tracks player stats for its own division, so the opponent shows a team row
+   with empty players even in a fully-populated game. They have low GP (1-9) and
+   are expected; the empty-GAME recovery does not touch them.
+
+WHAT ACTUALLY CHANGED FROM FEBRUARY TO NOW
+------------------------------------------
+* Games: MBB grew by ~395 / 253 / 298 (D1/D2/D3) as the rest of the season +
+  tournament were added; women's went from an unarchived February baseline to
+  6,026 / 4,510 / 5,682. Total now = 32,809 games.
+* Empty games: MBB dropped from 1,741 empty (D1+D2+D3) to just 47. That is the
+  headline win of the re-scrape + empty-shell repair.
+* Player records captured: +2,520 across the six accumulated files (49,552 ->
+  52,072), because filling the empty games surfaced thousands of player lines
+  that were missing before.
+* Teams: essentially unchanged (+11), since teams were already listed even in
+  empty games; only a handful of new late-season opponents were added.
