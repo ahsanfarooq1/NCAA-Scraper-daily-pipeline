@@ -162,3 +162,34 @@ def build_all(year, ddir, out_dir, combos):
             info[fname] = {"records": len(lst), "teams": len(lst), "partial": p, "none": len(lst) - p}
         print(f"[TEAMS] {sport}: wrote 3 lists ({left_out} non-NCAA/unknown teams left out)")
     return info
+
+
+# ---------------------------------------------------------------- multi-season team lists
+SEED_TEAMS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seed_teams")
+HISTORY_FILES = [(sp, f"Ncaa_{lab}_Teams_d{d}.json", d)
+                 for sp, lab in (("MBB", "men"), ("WBB", "Women")) for d in (1, 2, 3)]
+
+
+def build_history(year, ddir, out_dir):
+    """Ncaa_<men|Women>_Teams_d<n>.json = { "<season>": [ {team_name, city, state}, ... ] } for every
+    season. The CURRENT season is rebuilt from today's accumulated file; earlier seasons are carried over
+    unchanged (from the previous copy in the saved state, else from the committed pipeline/seed_teams)."""
+    import sys
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if root not in sys.path:
+        sys.path.insert(0, root)
+    from extract_ncaa_teams import extract_ncaa_team_details
+    season = f"{year}-{year + 1}"
+    info = {}
+    for sport, fname, div in HISTORY_FILES:
+        base = _load(os.path.join(ddir, fname)) or _load(os.path.join(SEED_TEAMS_DIR, fname)) or {}
+        acc = os.path.join(ddir, f"Accumulated_Stats_{sport}_D{div}_{year}_{year + 1}.json")
+        teams = extract_ncaa_team_details(acc)
+        data = {k: v for k, v in base.items() if k != season}
+        data[season] = teams
+        data = dict(sorted(data.items()))
+        _save(os.path.join(out_dir, fname), data, indent=4)
+        _save(os.path.join(ddir, fname), data, indent=4)
+        info[fname] = {"records": len(teams), "teams": len(teams), "seasons": list(data)}
+    print(f"[TEAMS] multi-season lists: wrote {len(info)} files (current season {season})")
+    return info

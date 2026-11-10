@@ -1,0 +1,6551 @@
+{
+  "2024-2025": [
+    {
+      "team_name": "Abilene Christian University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Adelphi University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Alabama A&M University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Alabama State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Alcorn State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Alice Lloyd",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Allegheny College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "American International College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "American University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Anderson University (Indiana)",
+      "city": "",
+      "state": "Indiana"
+    },
+    {
+      "team_name": "Appalachian State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Apprentice",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Aquinas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Arizona Christian",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Arizona State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Arkansas Baptist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Arkansas State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Arlington Baptist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Asbury University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Assumption University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Auburn University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Austin Peay State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ave Maria",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ball State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bates College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Baylor University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bellarmine University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bellevue",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Belmont University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Benedictine Mesa",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bentley University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Berry College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bethel (TN)",
+      "city": "",
+      "state": "TN"
+    },
+    {
+      "team_name": "Bethel University (Minnesota)",
+      "city": "",
+      "state": "Minnesota"
+    },
+    {
+      "team_name": "Bethesda (CA)",
+      "city": "",
+      "state": "CA"
+    },
+    {
+      "team_name": "Bethune-Cookman University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Biblical Stud. (TX)",
+      "city": "",
+      "state": "TX"
+    },
+    {
+      "team_name": "Binghamton University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Biola University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Black Hills State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bloomfield College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bloomsburg University of Pennsylvania",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Blue Mountain (MS)",
+      "city": "",
+      "state": "MS"
+    },
+    {
+      "team_name": "Bluefield Univ.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bob Jones University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Boise State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Boston College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Boston University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bowie State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bowling Green State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bradley University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Brenau",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Brescia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Brevard College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bridgewater State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Brigham Young University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Brown University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bry. & Strat. (Syr.)",
+      "city": "",
+      "state": "Syr."
+    },
+    {
+      "team_name": "Bryant University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bryn Athyn College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bucknell University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Buffalo State, State University of New York",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bushnell",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Butler University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Cal Maritime",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California Baptist University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California Lutheran University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California Polytechnic State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Bakersfield",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, East Bay",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Fresno",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Fullerton",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Northridge",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Sacramento",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, San Marcos",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Stanislaus",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Campbell University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Canisius University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Carnegie Mellon University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "CarolinaU",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Carroll University (Wisconsin)",
+      "city": "",
+      "state": "Wisconsin"
+    },
+    {
+      "team_name": "Cedarville University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Cent. Christian (KS)",
+      "city": "",
+      "state": "KS"
+    },
+    {
+      "team_name": "Centenary College (Louisiana)",
+      "city": "",
+      "state": "Louisiana"
+    },
+    {
+      "team_name": "Central Baptist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Central Connecticut State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Central Methodist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Central Michigan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Chadron State College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Champion Chris.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Chapman University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Charleston Southern University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Chestnut Hill College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Cheyney",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Chicago State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Chowan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Christian Brothers University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Christopher Newport University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Claremont McKenna-Harvey Mudd-Scripps Colleges",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Clarke",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Cleary",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Clemson University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Cleveland State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Clinton",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Coastal Carolina University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Coastal Ga.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Coker University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Col. of Idaho",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Colby-Sawyer College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Colgate University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "College of Charleston (South Carolina)",
+      "city": "",
+      "state": "South Carolina"
+    },
+    {
+      "team_name": "College of Staten Island",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "College of the Holy Cross",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Colorado Christian University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Colorado State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Columbia (MO)",
+      "city": "",
+      "state": "MO"
+    },
+    {
+      "team_name": "Columbia (SC)",
+      "city": "",
+      "state": "SC"
+    },
+    {
+      "team_name": "Columbia University-Barnard College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Concordia (MI)",
+      "city": "",
+      "state": "MI"
+    },
+    {
+      "team_name": "Concordia (NE)",
+      "city": "",
+      "state": "NE"
+    },
+    {
+      "team_name": "Coppin State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Corban",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Cornell University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Creighton University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Crown College (Minnesota)",
+      "city": "",
+      "state": "Minnesota"
+    },
+    {
+      "team_name": "Culver-Stockton",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Cumberland (TN)",
+      "city": "",
+      "state": "TN"
+    },
+    {
+      "team_name": "Cumberlands (KY)",
+      "city": "",
+      "state": "KY"
+    },
+    {
+      "team_name": "Dakota St.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Dakota Wesleyan",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Dallas Christian",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Dartmouth College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Davidson College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Davis & Elkins College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "DePaul University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Defiance",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Delaware State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Delta State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Dickinson St.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Dillard",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Dominican University New York",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Drake University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Drexel University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Duke University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Duquesne University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "East Carolina University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "East Tennessee State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "East Texas A&M University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern Illinois University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern Kentucky University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern Michigan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern New Mexico University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern Ore.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern Washington University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Edward Waters University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Elon University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Emmanuel College (Massachusetts)",
+      "city": "",
+      "state": "Massachusetts"
+    },
+    {
+      "team_name": "Emory & Henry University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Erskine College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Evergreen St.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fairfield University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fairleigh Dickinson University, Metropolitan Campus",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Faulkner",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fisk",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fla. National",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Florida A&M University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Florida Atlantic University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Florida Gulf Coast University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Florida International University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Florida State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fordham University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fort Lauderdale",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fort Lewis College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Franklin Pierce University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fresno Pacific University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Frostburg State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Furman University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Gardner-Webb University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "George Mason University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "George Washington University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Georgetown University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Georgia Institute of Technology",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Georgia Southern University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Georgia State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Georgian Court University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Goldey-Beacom College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Gonzaga University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Goshen",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Grambling State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Grand Canyon University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Grand Valley State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Greensboro College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Guilford College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Hampton University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Harris-Stowe",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Harvard University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Haskell",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Haverford College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Hendrix College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "High Point University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Hiram College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Hofstra University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Hood College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Houston Christian University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Howard Payne University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Howard University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "IU Columbus",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Idaho State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Illinois State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Immaculata University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ind.-Southeast",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Indiana State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Indiana University Indianapolis",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Indiana University, Bloomington",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Iona University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Iowa State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Jackson State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Jacksonville State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Jacksonville University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "James Madison University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Jarvis Christian",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Jessup University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "John Carroll University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Johns Hopkins University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Johnson & Wales (Charlotte)",
+      "city": "",
+      "state": "Charlotte"
+    },
+    {
+      "team_name": "Johnson & Wales University (Providence)",
+      "city": "",
+      "state": "Providence"
+    },
+    {
+      "team_name": "Johnson (TN)",
+      "city": "",
+      "state": "TN"
+    },
+    {
+      "team_name": "Johnson C. Smith University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Kansas State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Keene State College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Kennesaw State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Kent State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Kentucky State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Kentucky Wesleyan College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "King University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "LIFE Pacific",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "LSU-Alexandria",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "La Salle University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "La Sierra",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "La. Christian",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lafayette College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lake Erie College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lamar University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Langston",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Le Moyne College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "LeTourneau University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lebanon Valley College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lees-McRae College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lehigh University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Liberty University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Life (GA)",
+      "city": "",
+      "state": "GA"
+    },
+    {
+      "team_name": "Lincoln (California)",
+      "city": "",
+      "state": "California"
+    },
+    {
+      "team_name": "Lincoln University (Pennsylvania)",
+      "city": "",
+      "state": "Pennsylvania"
+    },
+    {
+      "team_name": "Lindenwood University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lipscomb University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Livingstone College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Long Beach State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Long Island University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Longwood University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Louisiana State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Louisiana Tech University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Loyola (LA)",
+      "city": "",
+      "state": "LA"
+    },
+    {
+      "team_name": "Loyola Marymount University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Loyola University Chicago",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Loyola University Maryland",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Macalester College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Manhattan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Marist University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Marquette University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Marshall University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Maryville College (Tennessee)",
+      "city": "",
+      "state": "Tennessee"
+    },
+    {
+      "team_name": "Mayville St.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "McMurry University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "McNeese State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mercer University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mercy University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mercyhurst University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Meredith College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Merrimack College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Miami University (Ohio)",
+      "city": "",
+      "state": "Ohio"
+    },
+    {
+      "team_name": "Miami-Hamilton",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Michigan State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Middle Tennessee State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Midway",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Miles College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Millsaps College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Misericordia University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mississippi State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mississippi University for Women",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mississippi Valley State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Missouri State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Molloy University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Monmouth University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Montana State University-Bozeman",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Montana Tech",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Montreat",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Morehead State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Morgan State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mount Saint Mary College (New York)",
+      "city": "",
+      "state": "New York"
+    },
+    {
+      "team_name": "Mount St. Mary's University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mt. Marty",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Murray State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Nelson",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "New College (FL)",
+      "city": "",
+      "state": "FL"
+    },
+    {
+      "team_name": "New Jersey Institute of Technology",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "New Mexico Highlands University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "New Mexico State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Newberry College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Niagara University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Nicholls State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Norfolk State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North American",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Carolina A&T State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Carolina Central University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Carolina State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Central College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Dakota State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Greenville University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northeastern State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northeastern University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northern Arizona University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northern Illinois University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northern Kentucky University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northern N.M.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northwest Nazarene University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northwestern State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northwestern University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Notre Dame of Maryland University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oakland City",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oakland University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oakwood",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Occidental College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oglethorpe University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ohio Christian",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ohio Dominican University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ohio University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oklahoma Christian University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oklahoma City",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oklahoma State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Old Dominion University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oral Roberts University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oregon State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Our Lady of the Lake",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Pace University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Paine",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Park (AZ)",
+      "city": "",
+      "state": "AZ"
+    },
+    {
+      "team_name": "Pennsylvania State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Pennsylvania Western University, Clarion",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Pepperdine University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Pfeiffer University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Point Park University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Portland State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Post University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Prairie View A&M University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Presbyterian College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Princeton University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Providence College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Purdue University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Purdue University Fort Wayne",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Queens University of Charlotte",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Quinnipiac University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Radford University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Randolph College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Regis College (Massachusetts)",
+      "city": "",
+      "state": "Massachusetts"
+    },
+    {
+      "team_name": "Regis University (Colorado)",
+      "city": "",
+      "state": "Colorado"
+    },
+    {
+      "team_name": "Rensselaer Polytechnic Institute",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Rice University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Rider University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ripon College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Robert Morris University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Roosevelt University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Rutgers, The State University of New Jersey, New Brunswick",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Sacred Heart University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Anselm College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Elizabeth University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Francis University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Joseph's University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Louis University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Martin's University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Mary's College of California",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Michael's College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Peter's University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Salem University (West Virginia)",
+      "city": "",
+      "state": "West Virginia"
+    },
+    {
+      "team_name": "Sam Houston State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Samford University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "San Diego State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "San Francisco State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "San Jose State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Santa Clara University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Schreiner University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Seattle University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Seton Hall University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Shaw University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Shepherd University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Shorter University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Siena University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Simpson (CA)",
+      "city": "",
+      "state": "CA"
+    },
+    {
+      "team_name": "Slippery Rock University of Pennsylvania",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "South Carolina State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "South Dakota School of Mines & Technology",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "South Dakota State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southeast Missouri State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southeastern (FL)",
+      "city": "",
+      "state": "FL"
+    },
+    {
+      "team_name": "Southeastern Bapt.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southeastern Louisiana University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Connecticut State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Illinois University Edwardsville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Illinois University at Carbondale",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Methodist University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern New Hampshire University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern University, Baton Rouge",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Utah University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Wesleyan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern-N.O.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southwest (NM)",
+      "city": "",
+      "state": "NM"
+    },
+    {
+      "team_name": "Southwestern University (Texas)",
+      "city": "",
+      "state": "Texas"
+    },
+    {
+      "team_name": "Spring Hill College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "St. Bonaventure University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "St. Francis (IL)",
+      "city": "",
+      "state": "IL"
+    },
+    {
+      "team_name": "St. John's University (New York)",
+      "city": "",
+      "state": "New York"
+    },
+    {
+      "team_name": "St. Mary (NE)",
+      "city": "",
+      "state": "NE"
+    },
+    {
+      "team_name": "St. Mary's University (Texas)",
+      "city": "",
+      "state": "Texas"
+    },
+    {
+      "team_name": "Stanford University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "State University of New York at Geneseo",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "State University of New York at Old Westbury",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stephen F. Austin State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stetson University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stillman",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stonehill College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stony Brook University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Sul Ross State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Syracuse University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "TAMU-San Antonio",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tabor",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Talladega",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tarleton State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Temple University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tenn. Southern",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tennessee State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tennessee Technological University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tex. A&M-Texarkana",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas A&M University, College Station",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas A&M University-Corpus Christi",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas Christian University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas Col.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas Lutheran University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas Southern University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas Tech University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The Ohio State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of North Carolina at Charlotte",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of North Carolina at Greensboro",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of Southern Mississippi",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of Texas Rio Grande Valley",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of Tulsa",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of Virginia's College at Wise",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Thomas (GA)",
+      "city": "",
+      "state": "GA"
+    },
+    {
+      "team_name": "Tiffin University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Towson University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Trinity Baptist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Trinity Christian",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Troy University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tulane University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tusculum University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "U.S. Air Force Academy",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "U.S. Military Academy",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "U.S. Naval Academy",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "UNT Dallas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Union College (New York)",
+      "city": "",
+      "state": "New York"
+    },
+    {
+      "team_name": "Union Commonwealth",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University at Albany",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University at Buffalo, the State University of New York",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Akron",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Alabama",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Alabama at Birmingham",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Alabama in Huntsville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Alaska Anchorage",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Arizona",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Arkansas at Little Rock",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Arkansas, Fayetteville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Arkansas, Pine Bluff",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Bridgeport",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Berkeley",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Davis",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Irvine",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Los Angeles",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Merced",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Riverside",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, San Diego",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Santa Barbara",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Central Arkansas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Central Florida",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Cincinnati",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Colorado Boulder",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Colorado Colorado Springs",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Connecticut",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Dayton",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Delaware",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Denver",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Detroit Mercy",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Evansville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Findlay",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Florida",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Georgia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Hawaii at Hilo",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Hawaii, Manoa",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Houston",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Idaho",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Illinois Chicago",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Illinois Springfield",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Illinois Urbana-Champaign",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Iowa",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Jamestown",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Kansas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Kentucky",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Louisiana Monroe",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Louisiana at Lafayette",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Louisville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Maine",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Maryland Eastern Shore",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Maryland, Baltimore County",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Maryland, College Park",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Massachusetts Lowell",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Massachusetts, Amherst",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Memphis",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Miami (Florida)",
+      "city": "",
+      "state": "Florida"
+    },
+    {
+      "team_name": "University of Michigan",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Minnesota, Twin Cities",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Mississippi",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Missouri, Columbia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Missouri-Kansas City",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Missouri-St. Louis",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Montana",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Montevallo",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Mount Olive",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Nebraska at Omaha",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Nebraska-Lincoln",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Nevada, Las Vegas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Nevada, Reno",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of New Hampshire",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of New Haven",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of New Mexico",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of New Orleans",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Alabama",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Carolina Asheville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Carolina Wilmington",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Carolina at Pembroke",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Carolina, Chapel Hill",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Dakota",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Florida",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Texas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Northern Colorado",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Northern Iowa",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Notre Dame",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Oklahoma",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Oregon",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Pennsylvania",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Pittsburgh",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Pittsburgh, Johnstown",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Portland",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Puerto Rico, Mayaguez",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Rhode Island",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Richmond",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of San Diego",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of San Francisco",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of South Alabama",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of South Carolina Upstate",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of South Carolina, Columbia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of South Dakota",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of South Florida",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Southern California",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Southern Indiana",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of St. Thomas (Minnesota)",
+      "city": "",
+      "state": "Minnesota"
+    },
+    {
+      "team_name": "University of St. Thomas (Texas)",
+      "city": "",
+      "state": "Texas"
+    },
+    {
+      "team_name": "University of Tennessee at Chattanooga",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Tennessee at Martin",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Tennessee, Knoxville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Texas at Arlington",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Texas at Austin",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Texas at Dallas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Texas at El Paso",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Texas at San Antonio",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Toledo",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Utah",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Vermont",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Virginia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Washington",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of West Alabama",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of West Georgia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wisconsin-Green Bay",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wisconsin-La Crosse",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wisconsin-Madison",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wisconsin-Milwaukee",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wisconsin-Parkside",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wyoming",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of the Incarnate Word",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of the Pacific",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of the South",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Utah State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Utah Tech University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Utah Valley University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Valparaiso University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Vanderbilt University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Villanova University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Virginia Commonwealth University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Virginia Polytechnic Institute and State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Virginia State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Virginia-Lynchburg",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Viterbo",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wagner College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wake Forest University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Walla Walla",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Walsh University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Warner Pacific",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Warren Wilson College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Washington Adventist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Washington State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Webber Int'l",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Weber State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wesleyan College (Georgia)",
+      "city": "",
+      "state": "Georgia"
+    },
+    {
+      "team_name": "West Virginia University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Westcliff",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western Carolina University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western Colorado University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western Illinois University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western Kentucky University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western Michigan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western New Mexico University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Westminster College (Missouri)",
+      "city": "",
+      "state": "Missouri"
+    },
+    {
+      "team_name": "Westminster University (Utah)",
+      "city": "",
+      "state": "Utah"
+    },
+    {
+      "team_name": "Whittier College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wichita State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wiley",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "William & Mary",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "William Carey",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "William Jewell College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "William Woods",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wilmington University (Delaware)",
+      "city": "",
+      "state": "Delaware"
+    },
+    {
+      "team_name": "Winston-Salem State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Winthrop University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wofford College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Worcester State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wright State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Xavier (LA)",
+      "city": "",
+      "state": "LA"
+    },
+    {
+      "team_name": "Xavier University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Yale University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Youngstown State University",
+      "city": "",
+      "state": ""
+    }
+  ],
+  "2025-2026": [
+    {
+      "team_name": "Abilene Christian University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Adelphi University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Agnes Scott College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Alabama A&M University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Alabama State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Albany State University (Georgia)",
+      "city": "",
+      "state": "Georgia"
+    },
+    {
+      "team_name": "Alcorn State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Allen University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "American University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Anderson University (Indiana)",
+      "city": "",
+      "state": "Indiana"
+    },
+    {
+      "team_name": "Appalachian State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Apprentice",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Aquinas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Arcadia University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Arizona State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Arkansas Baptist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Arkansas State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Arlington Baptist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Auburn University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Auburn University at Montgomery",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Austin Peay State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ave Maria",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Averett University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ball State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bard College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Barton College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Baylor University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bellarmine University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Belmont University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Benedictine Mesa",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Berkeley (NY)",
+      "city": "",
+      "state": "NY"
+    },
+    {
+      "team_name": "Berry College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bethany (KS)",
+      "city": "",
+      "state": "KS"
+    },
+    {
+      "team_name": "Bethesda (CA)",
+      "city": "",
+      "state": "CA"
+    },
+    {
+      "team_name": "Bethune-Cookman University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Biblical Stud. (TX)",
+      "city": "",
+      "state": "TX"
+    },
+    {
+      "team_name": "Binghamton University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bismarck State College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bloomfield Col.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bloomsburg University of Pennsylvania",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Blue Mountain (MS)",
+      "city": "",
+      "state": "MS"
+    },
+    {
+      "team_name": "Bluefield Univ.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bob Jones",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Boise State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Boston College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Boston University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bowling Green State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bradley University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Brevard College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Brewton-Parker",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Briar Cliff (IA)",
+      "city": "",
+      "state": "IA"
+    },
+    {
+      "team_name": "Bridgewater State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Brigham Young University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Brown University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bryant University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bucknell University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Buena Vista University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Bushnell",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Butler University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California Baptist University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California Lutheran University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California Polytechnic State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Bakersfield",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Chico",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, East Bay",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Fresno",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Fullerton",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Los Angeles",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Monterey Bay",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Northridge",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Sacramento",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, San Marcos",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "California State University, Stanislaus",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Calumet Col.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Campbell University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Canisius University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Carnegie Mellon University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "CarolinaU",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Carroll (MT)",
+      "city": "",
+      "state": "MT"
+    },
+    {
+      "team_name": "Cedarville University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Centenary College (Louisiana)",
+      "city": "",
+      "state": "Louisiana"
+    },
+    {
+      "team_name": "Central Baptist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Central Connecticut State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Central Michigan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Chadron State College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Champion Chris.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Chapman University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Charleston Southern University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Chestnut Hill College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Cheyney",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Chicago State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Christopher Newport University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Claflin University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Cleary",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Clemson University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Cleveland State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Clinton",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Coastal Carolina University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Coastal Ga.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Colby-Sawyer College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Colgate University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "College of Charleston (South Carolina)",
+      "city": "",
+      "state": "South Carolina"
+    },
+    {
+      "team_name": "College of the Holy Cross",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Colorado Christian University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Colorado State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Columbia (MO)",
+      "city": "",
+      "state": "MO"
+    },
+    {
+      "team_name": "Columbia (SC)",
+      "city": "",
+      "state": "SC"
+    },
+    {
+      "team_name": "Columbia Int'l",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Columbia University-Barnard College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Concord University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Concordia College, Moorhead",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Concordia University Texas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Converse University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Coppin State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Corban",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Cornell University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Covenant College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Creighton University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Crown College (Minnesota)",
+      "city": "",
+      "state": "Minnesota"
+    },
+    {
+      "team_name": "Cumberlands (KY)",
+      "city": "",
+      "state": "KY"
+    },
+    {
+      "team_name": "Dartmouth College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Davenport University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Davidson College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Davis & Elkins College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "DePaul University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Dean College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Defiance",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Delaware State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Delta State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Dickinson St.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Dillard",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Drake University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Drexel University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Duke University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Duquesne University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "East Carolina University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "East Tennessee State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "East Texas A&M University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern Illinois University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern Kentucky University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern Michigan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern New Mexico University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern Ore.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Eastern Washington University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ecclesia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Edward Waters University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Elizabeth City State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Elon University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Embry-Riddle (AZ)",
+      "city": "",
+      "state": "AZ"
+    },
+    {
+      "team_name": "Emmanuel College (Massachusetts)",
+      "city": "",
+      "state": "Massachusetts"
+    },
+    {
+      "team_name": "Emory & Henry University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Erskine College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Evergreen St.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fairfield University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fairleigh Dickinson University, Metropolitan Campus",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Faulkner",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Felician University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ferrum College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fisk",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fla. Memorial",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fla. National",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Florida A&M University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Florida Atlantic University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Florida Gulf Coast University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Florida Institute of Technology",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Florida International University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Florida State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fordham University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fort Lauderdale",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Franklin College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Franklin Pierce University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Fresno Pacific University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Friends",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Frostburg State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Furman University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Gardner-Webb University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Geneva College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "George Mason University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "George Washington University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Georgetown (KY)",
+      "city": "",
+      "state": "KY"
+    },
+    {
+      "team_name": "Georgetown University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Georgia Institute of Technology",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Georgia Southern University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Georgia Southwestern State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Georgia State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Georgian Court University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Gonzaga University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Grambling State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Grand Canyon University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Gwynedd Mercy University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Hampton University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Harris-Stowe",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Harvard University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Haskell",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Heidelberg University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Hendrix College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Hesston",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "High Point University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Hofstra University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Hope Int'l",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Houston Christian University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Howard Payne University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Howard University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Huston-Tillotson",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "IU Columbus",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Idaho State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Illinois State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ind.-East",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ind.-Southeast",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Indiana State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Indiana University Indianapolis",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Indiana University, Bloomington",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Iona University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Iowa State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ithaca College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Jackson State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Jacksonville State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Jacksonville University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "James Madison University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Jarvis Christian",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Jessup University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Johns Hopkins University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Johnson & Wales University Charlotte",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Johnson (TN)",
+      "city": "",
+      "state": "TN"
+    },
+    {
+      "team_name": "Johnson C. Smith University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Judson (IL)",
+      "city": "",
+      "state": "IL"
+    },
+    {
+      "team_name": "Kansas State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Kean University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Kennesaw State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Kent State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Kentucky State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "King University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "King's College (Pennsylvania)",
+      "city": "",
+      "state": "Pennsylvania"
+    },
+    {
+      "team_name": "Ky. Christian",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "LIFE Pacific",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "LSU-Alexandria",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "La Salle University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "La Sierra",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "La. Christian",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "LaGrange College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lafayette College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lamar University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Langston",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Le Moyne College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "LeTourneau University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lees-McRae College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lehigh University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lehman College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lewis University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Liberty University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Life (GA)",
+      "city": "",
+      "state": "GA"
+    },
+    {
+      "team_name": "Lincoln University (Missouri)",
+      "city": "",
+      "state": "Missouri"
+    },
+    {
+      "team_name": "Lincoln University (Pennsylvania)",
+      "city": "",
+      "state": "Pennsylvania"
+    },
+    {
+      "team_name": "Lindenwood University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lindsey Wilson",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lipscomb University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Livingstone College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Long Beach State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Long Island University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Longwood University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Louisiana State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Louisiana Tech University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lourdes",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Loyola (LA)",
+      "city": "",
+      "state": "LA"
+    },
+    {
+      "team_name": "Loyola Marymount University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Loyola University Chicago",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Loyola University Maryland",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Lyon College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Manhattan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mansfield University of Pennsylvania",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Marist University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Marquette University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mars Hill University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Marshall University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Marywood University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mayville St.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "McMurry University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "McNeese State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Me.-Fort Kent",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mercer University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mercy University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mercyhurst University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Merrimack College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Metropolitan State University of Denver",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Miami University (Ohio)",
+      "city": "",
+      "state": "Ohio"
+    },
+    {
+      "team_name": "Michigan State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Middle Tennessee State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Midway",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Miles College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Minot State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mississippi State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mississippi University for Women",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mississippi Valley State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Missouri State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mo. Baptist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Molloy University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Monmouth University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Montana State University-Bozeman",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Montana Western",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Montreat",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Morehead State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Morgan State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Morris",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Mount St. Mary's University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Murray State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Nelson",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "New England College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "New Jersey City University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "New Jersey Institute of Technology",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "New Mexico Highlands University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "New Mexico State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Newberry College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Niagara University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Nicholls State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Norfolk State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North American",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Carolina A&T State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Carolina Central University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Carolina State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Carolina Wesleyan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Dakota State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "North Greenville University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northeastern University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northern Arizona University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northern Illinois University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northern Kentucky University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northern N.M.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northwest (WA)",
+      "city": "",
+      "state": "WA"
+    },
+    {
+      "team_name": "Northwestern State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Northwestern University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Notre Dame of Maryland University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oakland City",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oakland University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oakwood",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Occidental College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oglethorpe University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ohio University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Okla. Wesleyan",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oklahoma Christian University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oklahoma State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Old Dominion University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oral Roberts University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Oregon State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ottawa (KS)",
+      "city": "",
+      "state": "KS"
+    },
+    {
+      "team_name": "Ouachita Baptist University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Pace University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Palm Beach Atlantic University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Park (AZ)",
+      "city": "",
+      "state": "AZ"
+    },
+    {
+      "team_name": "Pennsylvania State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Pennsylvania Western University, California",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Pensacola Christian",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Pepperdine University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Point Park University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Point U.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Portland State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Prairie View A&M University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Presbyterian College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Princeton University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Providence College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Purchase College, State University of New York",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Purdue University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Purdue University Fort Wayne",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Queens University of Charlotte",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Quinnipiac University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Radford University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Randolph College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Regis University (Colorado)",
+      "city": "",
+      "state": "Colorado"
+    },
+    {
+      "team_name": "Rensselaer Polytechnic Institute",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Rice University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Rider University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ripon College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Robert Morris University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Rochester Christian",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Roosevelt University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Rust",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Rutgers, The State University of New Jersey, New Brunswick",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Sacred Heart University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Anselm College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Francis University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Joseph's University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Louis University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Martin's University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Mary's College of California",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Mary's University of Minnesota",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Saint Peter's University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Salem University (West Virginia)",
+      "city": "",
+      "state": "West Virginia"
+    },
+    {
+      "team_name": "Sam Houston State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Samford University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "San Diego State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "San Francisco State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "San Jose State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Santa Clara University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Schreiner University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Seattle Pacific University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Seattle University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Seton Hall University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Shaw University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Shorter University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Siena University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Simmons (KY)",
+      "city": "",
+      "state": "KY"
+    },
+    {
+      "team_name": "Simpson (CA)",
+      "city": "",
+      "state": "CA"
+    },
+    {
+      "team_name": "Slippery Rock University of Pennsylvania",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "South Carolina State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "South Dakota School of Mines & Technology",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "South Dakota State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southeast Missouri State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southeastern (FL)",
+      "city": "",
+      "state": "FL"
+    },
+    {
+      "team_name": "Southeastern Louisiana University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Arkansas University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Illinois University Edwardsville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Illinois University at Carbondale",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Methodist University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern University, Baton Rouge",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Utah University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern Wesleyan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southern-N.O.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Southwest (NM)",
+      "city": "",
+      "state": "NM"
+    },
+    {
+      "team_name": "Southwestern Christ.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Spalding University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "St. Bonaventure University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "St. Francis (IL)",
+      "city": "",
+      "state": "IL"
+    },
+    {
+      "team_name": "St. John's University (New York)",
+      "city": "",
+      "state": "New York"
+    },
+    {
+      "team_name": "St. Joseph's University NY (Brooklyn)",
+      "city": "",
+      "state": "Brooklyn"
+    },
+    {
+      "team_name": "St. Mary (NE)",
+      "city": "",
+      "state": "NE"
+    },
+    {
+      "team_name": "St. Mary's College of Maryland",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "St. Mary's University (Texas)",
+      "city": "",
+      "state": "Texas"
+    },
+    {
+      "team_name": "St. Mary-Woods",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stanford University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stanton",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "State University of New York at Delhi",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "State University of New York at Geneseo",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "State University of New York at New Paltz",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stephen F. Austin State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stephens College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stetson University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stevenson University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stillman",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stonehill College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Stony Brook University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Syracuse University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "TAMU-San Antonio",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Talladega",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tarleton State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Temple University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tennessee State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tennessee Technological University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tex. A&M-Texarkana",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas A&M International University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas A&M University, College Station",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas A&M University-Corpus Christi",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas A&M University-Kingsville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas Christian University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas Col.",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas Southern University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Texas Tech University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The Ohio State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of North Carolina at Charlotte",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of North Carolina at Greensboro",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of Southern Mississippi",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of Texas Rio Grande Valley",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of Tulsa",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "The University of Virginia's College at Wise",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Thiel College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Thomas (GA)",
+      "city": "",
+      "state": "GA"
+    },
+    {
+      "team_name": "Tougaloo",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Towson University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Transylvania University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Trevecca Nazarene University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Trinity (FL)",
+      "city": "",
+      "state": "FL"
+    },
+    {
+      "team_name": "Trinity Baptist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Troy University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Truman State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tulane University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tusculum University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Tuskegee University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "U.S. Air Force Academy",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "U.S. Military Academy",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "U.S. Naval Academy",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "UHSP",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "UNT Dallas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University at Albany",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University at Buffalo, the State University of New York",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Akron",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Alabama",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Alabama at Birmingham",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Alaska Anchorage",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Arizona",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Arkansas at Little Rock",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Arkansas, Fayetteville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Arkansas, Pine Bluff",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Berkeley",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Davis",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Irvine",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Los Angeles",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Merced",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Riverside",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, San Diego",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Santa Barbara",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of California, Santa Cruz",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Central Arkansas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Central Florida",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Cincinnati",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Colorado Boulder",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Connecticut",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Dallas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Dayton",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Delaware",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Denver",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Detroit Mercy",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Evansville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Florida",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Georgia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Hawaii at Hilo",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Hawaii, Manoa",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Houston",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Idaho",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Illinois Chicago",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Illinois Urbana-Champaign",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Iowa",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Kansas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Kentucky",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Louisiana Monroe",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Louisiana at Lafayette",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Louisville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Maine",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Maryland Eastern Shore",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Maryland, Baltimore County",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Maryland, College Park",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Massachusetts Boston",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Massachusetts Lowell",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Massachusetts, Amherst",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Memphis",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Miami (Florida)",
+      "city": "",
+      "state": "Florida"
+    },
+    {
+      "team_name": "University of Michigan",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Minnesota, Twin Cities",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Mississippi",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Missouri, Columbia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Missouri-Kansas City",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Montana",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Montevallo",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Nebraska at Omaha",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Nebraska-Lincoln",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Nevada, Las Vegas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Nevada, Reno",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of New Hampshire",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of New Haven",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of New Mexico",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of New Orleans",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Alabama",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Carolina Asheville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Carolina Wilmington",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Carolina at Pembroke",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Carolina, Chapel Hill",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Dakota",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Florida",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of North Texas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Northern Colorado",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Northern Iowa",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Notre Dame",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Oklahoma",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Oregon",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Pennsylvania",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Pittsburgh",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Pittsburgh, Johnstown",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Portland",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Puerto Rico, Bayamon",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Puerto Rico, Mayaguez",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Rhode Island",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Richmond",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of San Diego",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of San Francisco",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Scranton",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Sioux Falls",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of South Alabama",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of South Carolina Upstate",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of South Carolina, Columbia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of South Dakota",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of South Florida",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Southern California",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Southern Indiana",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of St. Thomas (Minnesota)",
+      "city": "",
+      "state": "Minnesota"
+    },
+    {
+      "team_name": "University of St. Thomas (Texas)",
+      "city": "",
+      "state": "Texas"
+    },
+    {
+      "team_name": "University of Tennessee at Chattanooga",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Tennessee at Martin",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Tennessee, Knoxville",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Texas at Arlington",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Texas at Austin",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Texas at Dallas",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Texas at El Paso",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Texas at San Antonio",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Toledo",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Utah",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Vermont",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Virginia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Washington",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of West Alabama",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of West Georgia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wisconsin-Green Bay",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wisconsin-Madison",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wisconsin-Milwaukee",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wisconsin-Stevens Point",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wisconsin-Stout",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of Wyoming",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of the District of Columbia",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of the Incarnate Word",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of the Pacific",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "University of the South",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Ursinus College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Utah State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Utah Tech University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Utah Valley University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Valparaiso University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Vanderbilt University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Villanova University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Virginia Commonwealth University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Virginia Polytechnic Institute and State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Virginia State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Virginia-Lynchburg",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wagner College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wake Forest University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Walla Walla",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Walsh University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Warner Pacific",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Warren Wilson College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Washington Adventist",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Washington State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wayne State University (Michigan)",
+      "city": "",
+      "state": "Michigan"
+    },
+    {
+      "team_name": "Weber State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wesleyan College (Georgia)",
+      "city": "",
+      "state": "Georgia"
+    },
+    {
+      "team_name": "West Chester University of Pennsylvania",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "West Liberty University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "West Virginia University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western Carolina University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western Illinois University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western Kentucky University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western Michigan University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western New Mexico University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Western Oregon University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Westminster College (Missouri)",
+      "city": "",
+      "state": "Missouri"
+    },
+    {
+      "team_name": "Westminster University (Utah)",
+      "city": "",
+      "state": "Utah"
+    },
+    {
+      "team_name": "Westmont College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wheaton College (Massachusetts)",
+      "city": "",
+      "state": "Massachusetts"
+    },
+    {
+      "team_name": "Wichita State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wilberforce",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wiley",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Willamette University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "William & Mary",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "William Carey",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "William Jewell College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "William Peace University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "William Woods",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Winston-Salem State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Winthrop University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wisconsin Lutheran College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wofford College",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Worcester State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Wright State University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Xavier University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "Yale University",
+      "city": "",
+      "state": ""
+    },
+    {
+      "team_name": "York (NE)",
+      "city": "",
+      "state": "NE"
+    },
+    {
+      "team_name": "Youngstown State University",
+      "city": "",
+      "state": ""
+    }
+  ]
+}

@@ -49,7 +49,7 @@ jobs:
           gh release download ncaa-latest --dir prev --pattern "manifest.json" --clobber || echo "No previous manifest"
           ls -la state prev || true
 
-      - name: Run pipeline (scrape + accumulate + team lists)
+      - name: Run pipeline (scrape + accumulate + both team lists)
         run: |
           FORCE=""
           if [ "${{ github.event.inputs.force }}" = "true" ]; then FORCE="--force"; fi

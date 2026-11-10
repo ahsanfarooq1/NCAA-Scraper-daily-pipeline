@@ -89,7 +89,7 @@ def save_json(path, obj, indent=None):
 
 
 # ----------------------------------------------------------------- state (gz round-trip)
-STATE_PATTERNS = ("Final_All_Games_Data_", "season_", "team_registry_", "official_")
+STATE_PATTERNS = ("Final_All_Games_Data_", "season_", "team_registry_", "official_", "Ncaa_")
 
 
 def restore_state(state_dir: str, ddir: str):
@@ -313,10 +313,13 @@ def main():
 
     if not args.no_teams:
         try:
-            from share_lists import build_all
+            from share_lists import build_all, build_history
             share = build_all(year, ddir, args.out, [c for c in combos])
             for name, info in share.items():
                 files[name] = info
+            if len(combos) == 6:      # multi-season lists need all six accumulated files
+                for name, info in build_history(year, ddir, args.out).items():
+                    files[name] = info
         except Exception as e:      # team lists are best-effort: never block the stats files
             print(f"[WARN] team-list step failed, keeping previous lists: {e}")
 

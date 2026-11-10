@@ -51,12 +51,20 @@ Release **`ncaa-latest`** always holds the newest *validated* files at stable UR
 |---|---|
 | `manifest.json` | **Read first.** Run time, season, latest game date, and every file with bytes, sha256, record/team counts |
 | `Accumulated_Stats_<MBB\|WBB>_D<1-3>_<YYYY>_<YYYY>.json` | Season totals per team (`record_type: team_total`) and per player (6 files) |
-| `NCAA_<Men\|Women>_Teams_D<1-3>_<YYYY>-<YY>.json` | `[{"team_name": "...", "data_availablity": "partial"\|"none"}]` (6 files) |
+| `NCAA_<Men\|Women>_Teams_D<1-3>_<YYYY>-<YY>.json` | `[{"team_name": "...", "data_availablity": "partial"\|"none"}]` (6 files) - **the lists you share**; rebuilt in the same run as the accumulated files |
+| `Ncaa_<men\|Women>_Teams_d<1-3>.json` | Multi-season lists `{ "2024-2025": [...], "2025-2026": [...], "2026-2027": [...] }`; current season rebuilt from the accumulated file, older seasons carried over (6 files) |
 
 Tip for the ingest job: compare `manifest.json -> generated_at_utc` / sha256 with what it last ingested and
 only re-ingest changed files. Files are replaced in place each day; if validation fails nothing is replaced,
 so the previous day's files stay available.
 Release `ncaa-state` is internal (compressed raw data for resuming) - do not ingest it.
+
+**Team lists update automatically with the accumulated files.** Both kinds of list are built inside the same run,
+from the same data, so they can never be out of step; there is no separate trigger. Older seasons in the
+multi-season lists come from `pipeline/seed_teams/` (committed) the first time, then from the saved state.
+
+**Pull the published files onto your PC** (updates `Share_2026-27\`, `2026_27_data\`, and the multi-season lists):
+`python pipeline\pull_latest.py` (checks every file's sha256 against `manifest.json`).
 
 ## 3. The validation gate (replaces the manual check)
 

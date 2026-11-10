@@ -24,6 +24,7 @@ SPORTS = ("MBB", "WBB")
 DIVS = (1, 2, 3)
 REQUIRED_ACC_KEYS = {"team_id", "team_name", "record_type", "GP", "Pts"}
 SHARE_RE = re.compile(r"^NCAA_(Men|Women)_Teams_D([123])_\d{4}-\d{2}\.json$")
+HIST_RE = re.compile(r"^Ncaa_(men|Women)_Teams_d([123])\.json$")
 
 
 def load(path):
@@ -148,6 +149,29 @@ def main():
         for name, p in prev.get("files", {}).items():
             if SHARE_RE.match(name) and name in man["files"] and man["files"][name]["records"] < p["records"] * 0.9:
                 errors.append(f"{name}: team count fell {p['records']} -> {man['files'][name]['records']}")
+
+    # 3b) multi-season lists: current season present and non-empty, older seasons kept
+    for n in [n for n in man["files"] if HIST_RE.match(n)]:
+        m = HIST_RE.match(n)
+        sp = "MBB" if m.group(1) == "men" else "WBB"
+        path = os.path.join(args.out, n)
+        if not os.path.exists(path):
+            errors.append(f"{n}: listed in manifest but missing")
+            continue
+        h = load(path)
+        cur = f"{year}-{year + 1}"
+        if not isinstance(h, dict) or cur not in h:
+            errors.append(f"{n}: no section for {cur}")
+            continue
+        acc_name = f"Accumulated_Stats_{sp}_D{m.group(2)}_{year}_{year + 1}.json"
+        if not h[cur] and man["files"].get(acc_name, {}).get("teams", 0) > 0:
+            errors.append(f"{n}: {cur} section EMPTY although {acc_name} has teams")
+        if len(h) < 3:
+            warns.append(f"{n}: only {len(h)} season section(s) (older seasons missing?)")
+        for t in h[cur]:
+            if set(t) != {"team_name", "city", "state"}:
+                errors.append(f"{n}: wrong fields {sorted(t)}")
+                break
 
     # 4) freshness
     latest = man.get("latest_final_game_date")
