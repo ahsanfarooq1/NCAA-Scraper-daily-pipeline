@@ -31,7 +31,7 @@ Each season folder holds three kinds of file per sport/division:
 |---|---|
 | `season_<MBB\|WBB>_d<1-3>_<YYYY>-<YYYY>.json` | List of every game (contest ID, date, teams, status) found for the season |
 | `Final_All_Games_Data_<MBB\|WBB>_D<1-3>_<YYYY>_<YYYY>.json` | Raw boxscore for every game (both teams, every player) |
-| `Accumulated_Stats_<MBB\|WBB>_D<1-3>_<YYYY>_<YYYY>.json` | Season totals + per-game averages per team and player (this is what you send/consume) |
+| `NCAA_Accumulated_Stats_<MBB\|WBB>_D<1-3>_<YYYY>_<YYYY>.json` | Season totals + per-game averages per team and player (this is what you send/consume) |
 
 `2024_2025_2026_data/` also holds `Ncaa_men_Teams_d{1,2,3}.json` and
 `Ncaa_Women_Teams_d{1,2,3}.json` (unique team names per season) and `missing_contests.json`.
@@ -50,7 +50,7 @@ A) DISCOVER   one API request per day (Nov 1 -> today, never future dates)
 B) SCRAPE     one API request per contest ID
               -> Final_All_Games_Data_*.json           (boxscores)
 C) ACCUMULATE add up all boxscores
-              -> Accumulated_Stats_*.json              (team_total + player records)
+              -> NCAA_Accumulated_Stats_*.json              (team_total + player records)
 ```
 
 **Resume-safe.** Re-running never starts over:
@@ -77,7 +77,7 @@ Chrome to get clearance, then in-browser fetching. Use `-Attach` to drive a Chro
 | `fetch_season_contests.py` | Stage A: discovery for a season |
 | `contest_id_fetcher.py` | Discovery engine (GraphQL calls, date ranges, end date clamped to today) |
 | `ncaa_game_scraper2.py` | Stage B: boxscore scraper (resume-safe, refreshes empty games) |
-| `ncaa_accumulation.py` | Stage C: builds `Accumulated_Stats_*` next to each `Final_All_Games_Data_*` |
+| `ncaa_accumulation.py` | Stage C: builds `NCAA_Accumulated_Stats_*` next to each `Final_All_Games_Data_*` |
 | `extract_ncaa_teams.py` | Builds the `Ncaa_*_Teams_d*.json` lists (one section per season) |
 | `ncaa_cf.py` | Cloudflare-resilient HTTP session |
 | `ncaa_paths.py` | Decides which data folder each season uses |
@@ -180,7 +180,7 @@ Rhodes College, Sewanee: The University of the South, Southwestern University (T
 - Some played Nov 5-6, after the last scrape (e.g. Centre W, Sewanee W, Trinity TX M), so the next refresh adds them.
 
 **What to do:** nothing special. The normal weekly refresh (section 4) discovers D3 games automatically
-(`division=3`), so these schools will appear in `Accumulated_Stats_*_D3_2026_2027.json` after their first game.
+(`division=3`), so these schools will appear in `NCAA_Accumulated_Stats_*_D3_2026_2027.json` after their first game.
 Re-run `extract_ncaa_teams.py` afterwards to update the team lists.
 
 **Known limitation:** teams with no games yet cannot appear in any team list or Share file. A roster built from

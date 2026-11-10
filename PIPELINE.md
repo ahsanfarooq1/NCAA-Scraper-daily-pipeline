@@ -10,7 +10,7 @@ published files. Nothing here talks to Pinecone.
    1. restore state      <- Release "ncaa-state"   (compressed raw boxscores from earlier runs)
    2. discover games     only the last ~5 days + any recent game not final yet (incremental)
    3. scrape boxscores   final games only; already-scraped games are skipped
-   4. accumulate         Accumulated_Stats_*  (6 files)
+   4. accumulate         NCAA_Accumulated_Stats_*  (6 files)
    5. team lists         NCAA_<Men|Women>_Teams_D<n>_<season>.json  (6 files, partial/none)
    6. validate           blocks publishing if anything looks wrong
    7. publish            -> Release "ncaa-latest"  (the 12 files + manifest.json)
@@ -50,7 +50,7 @@ Release **`ncaa-latest`** always holds the newest *validated* files at stable UR
 | File | Content |
 |---|---|
 | `manifest.json` | **Read first.** Run time, season, latest game date, and every file with bytes, sha256, record/team counts |
-| `Accumulated_Stats_<MBB\|WBB>_D<1-3>_<YYYY>_<YYYY>.json` | Season totals per team (`record_type: team_total`) and per player (6 files) |
+| `NCAA_Accumulated_Stats_<MBB\|WBB>_D<1-3>_<YYYY>_<YYYY>.json` | Season totals per team (`record_type: team_total`) and per player (6 files) |
 | `NCAA_<Men\|Women>_Teams_D<1-3>_<YYYY>-<YY>.json` | `[{"team_name": "...", "data_availablity": "partial"\|"none"}]` (6 files) - **the lists you share**; rebuilt in the same run as the accumulated files |
 | `Ncaa_<men\|Women>_Teams_d<1-3>.json` | Multi-season lists `{ "2024-2025": [...], "2025-2026": [...], "2026-2027": [...] }`; current season rebuilt from the accumulated file, older seasons carried over (6 files) |
 

@@ -45,6 +45,14 @@ def extract_ncaa_team_details(file_path):
         print(f"Error processing {file_path}: {e}")
         return []
 
+def _acc_path(sport, div, season):
+    """NCAA_Accumulated_Stats_* (current naming); older seasons may still use Accumulated_Stats_*."""
+    folder = data_dir(int(season[:4]), create=False)
+    tail = f"{sport}_D{div}_{season.replace('-', '_')}.json"
+    new = os.path.join(folder, "NCAA_Accumulated_Stats_" + tail)
+    return new if os.path.exists(new) else os.path.join(folder, "Accumulated_Stats_" + tail)
+
+
 def main():
     # Team lists (Ncaa_*_Teams_d*.json) live in the legacy folder with the older seasons.
     # Add the new season string here each year (accumulated files come from that
@@ -57,10 +65,7 @@ def main():
         for div in (1, 2, 3):
             all_configs.append({
                 "output": f"Ncaa_{label}_Teams_d{div}.json",
-                "files": {
-                    s: os.path.join(data_dir(int(s[:4]), create=False), f"Accumulated_Stats_{sport}_D{div}_{s.replace('-', '_')}.json")
-                    for s in seasons
-                },
+                "files": {s: _acc_path(sport, div, s) for s in seasons},
             })
 
     for config in all_configs:

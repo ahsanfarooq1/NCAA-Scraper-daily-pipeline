@@ -54,7 +54,7 @@ def main():
     # 1) expected accumulated files exist, parse, and are well formed
     for sp in SPORTS:
         for d in DIVS:
-            name = f"Accumulated_Stats_{sp}_D{d}_{year}_{year + 1}.json"
+            name = f"NCAA_Accumulated_Stats_{sp}_D{d}_{year}_{year + 1}.json"
             path = os.path.join(args.out, name)
             if not os.path.exists(path):
                 errors.append(f"{name}: missing")
@@ -107,8 +107,10 @@ def main():
     # 2) regression vs the previously published run (data only ever grows in-season)
     if prev:
         for name, p in prev.get("files", {}).items():
+            if name.startswith("Accumulated_Stats_"):       # file was renamed NCAA_Accumulated_Stats_*
+                name = "NCAA_" + name
             cur = man["files"].get(name)
-            if name.startswith("Accumulated_Stats_"):
+            if name.startswith("NCAA_Accumulated_Stats_"):
                 if cur is None:
                     errors.append(f"{name}: present in last publish, missing now")
                 elif cur["records"] < p["records"]:
@@ -142,7 +144,7 @@ def main():
     for n in share_files:
         m = SHARE_RE.match(n)
         sp = "MBB" if m.group(1) == "Men" else "WBB"
-        acc_name = f"Accumulated_Stats_{sp}_D{m.group(2)}_{year}_{year + 1}.json"
+        acc_name = f"NCAA_Accumulated_Stats_{sp}_D{m.group(2)}_{year}_{year + 1}.json"
         if man["files"].get(n, {}).get("records", 0) == 0 and man["files"].get(acc_name, {}).get("teams", 0) > 0:
             errors.append(f"{n}: team list is EMPTY although {acc_name} has teams")
     if prev:
@@ -163,7 +165,7 @@ def main():
         if not isinstance(h, dict) or cur not in h:
             errors.append(f"{n}: no section for {cur}")
             continue
-        acc_name = f"Accumulated_Stats_{sp}_D{m.group(2)}_{year}_{year + 1}.json"
+        acc_name = f"NCAA_Accumulated_Stats_{sp}_D{m.group(2)}_{year}_{year + 1}.json"
         if not h[cur] and man["files"].get(acc_name, {}).get("teams", 0) > 0:
             errors.append(f"{n}: {cur} section EMPTY although {acc_name} has teams")
         if len(h) < 3:

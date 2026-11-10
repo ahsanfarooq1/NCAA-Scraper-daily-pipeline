@@ -313,8 +313,8 @@ def main():
 
     for infile in input_files:
         filename = os.path.basename(infile)
-        # Create output filename: replace 'Final_All_Games_Data' with 'Accumulated_Stats'
-        outname = filename.replace("Final_All_Games_Data", "Accumulated_Stats")
+        # Create output filename: replace 'Final_All_Games_Data' with 'NCAA_Accumulated_Stats'
+        outname = filename.replace("Final_All_Games_Data", "NCAA_Accumulated_Stats")
         outfile = os.path.join(os.path.dirname(infile), outname)
         process_ncaa_file(infile, outfile, skip_empty=skip_empty)
 

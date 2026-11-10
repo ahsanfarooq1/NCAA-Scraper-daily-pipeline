@@ -9,7 +9,7 @@ against manifest.json.
 
 Where files go:
     NCAA_<Men|Women>_Teams_D<n>_<season>.json   -> Share_<season>\
-    Accumulated_Stats_*.json, manifest.json     -> <YYYY>_<YY>_data\
+    NCAA_Accumulated_Stats_*.json, manifest.json     -> <YYYY>_<YY>_data\
     Ncaa_<men|Women>_Teams_d<n>.json            -> 2024_2025_2026_data\
 Works unauthenticated for a public repo; for a private repo run `gh auth login` first (uses `gh`).
 """
@@ -47,7 +47,7 @@ def main():
         h = hashlib.sha256(open(p, "rb").read()).hexdigest()
         if info.get("sha256") and h != info["sha256"]:
             raise SystemExit(f"checksum mismatch for {name} - not copying anything further")
-        if name.startswith("NCAA_"):
+        if name.startswith("NCAA_") and not name.startswith("NCAA_Accumulated"):
             dest = os.path.join(ROOT, f"Share_{year}-{(year + 1) % 100:02d}")
         elif name.startswith("Ncaa_"):
             dest = LEGACY_DIR

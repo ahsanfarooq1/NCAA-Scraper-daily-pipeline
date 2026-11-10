@@ -183,7 +183,7 @@ def build_history(year, ddir, out_dir):
     info = {}
     for sport, fname, div in HISTORY_FILES:
         base = _load(os.path.join(ddir, fname)) or _load(os.path.join(SEED_TEAMS_DIR, fname)) or {}
-        acc = os.path.join(ddir, f"Accumulated_Stats_{sport}_D{div}_{year}_{year + 1}.json")
+        acc = os.path.join(ddir, f"NCAA_Accumulated_Stats_{sport}_D{div}_{year}_{year + 1}.json")
         teams = extract_ncaa_team_details(acc)
         data = {k: v for k, v in base.items() if k != season}
         data[season] = teams

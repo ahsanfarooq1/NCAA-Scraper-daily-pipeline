@@ -284,7 +284,7 @@ def main():
             reg = registries.setdefault(sport, load_json(reg_path, {}))
             season_path = os.path.join(ddir, f"season_{sport}_d{div}_{year}-{year + 1}.json")
             final_path = os.path.join(ddir, f"Final_All_Games_Data_{sport}_D{div}_{year}_{year + 1}.json")
-            acc_name = f"Accumulated_Stats_{sport}_D{div}_{year}_{year + 1}.json"
+            acc_name = f"NCAA_Accumulated_Stats_{sport}_D{div}_{year}_{year + 1}.json"
             acc_path = os.path.join(ddir, acc_name)
 
             contests, dfails = discover(fetcher, sport, div, year, today, args.lookback_days, reg, season_path,
